@@ -1,0 +1,91 @@
+\hypertarget{class_mary_1_1_manager}{
+\section{Mary::Manager Class Reference}
+\label{class_mary_1_1_manager}\index{Mary::Manager@{Mary::Manager}}
+}
+{\tt \#include $<$Manager.h$>$}
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{class_mary_1_1_manager_6b46c90621b16345ff560417d165ebcd}{start} (\hyperlink{class_mary_1_1_game}{Game} $\ast$game, \hyperlink{class_mary_1_1_recognizer}{Recognizer} $\ast$recognizer)
+\item 
+void \hyperlink{class_mary_1_1_manager_3f86e2f7f44b0f1ff78f92e6e6987dd8}{signalShare} (std::string \&signal, void $\ast$data)
+\item 
+void \hyperlink{class_mary_1_1_manager_a0092d09a8fbcd8969242ad257ba1cb6}{loadImageFromRecognizer} (Ogre::Image $\ast$image)
+\item 
+void \hyperlink{class_mary_1_1_manager_d1c3a719937335e1357dd600b10d815d}{loadSharedDataFromRecognizer} (Ogre::HardwarePixelBufferSharedPtr buffer)
+\end{CompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{CompactItemize}
+\item 
+static \hyperlink{class_mary_1_1_manager}{Manager} $\ast$ \hyperlink{class_mary_1_1_manager_c6a6695327e7025c5db451a3c9c4ce59}{getInstance} ()
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+the main manager class. organize the thread system between the game and CV engine 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_mary_1_1_manager_c6a6695327e7025c5db451a3c9c4ce59}{
+\index{Mary::Manager@{Mary::Manager}!getInstance@{getInstance}}
+\index{getInstance@{getInstance}!Mary::Manager@{Mary::Manager}}
+\subsubsection[getInstance]{\setlength{\rightskip}{0pt plus 5cm}{\bf Manager} $\ast$ Mary::Manager::getInstance ()\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{class_mary_1_1_manager_c6a6695327e7025c5db451a3c9c4ce59}
+
+
+get the singleton for \hyperlink{class_mary_1_1_manager}{Manager} \begin{Desc}
+\item[Returns:]the \hyperlink{class_mary_1_1_manager}{Manager} reference \end{Desc}
+\hypertarget{class_mary_1_1_manager_a0092d09a8fbcd8969242ad257ba1cb6}{
+\index{Mary::Manager@{Mary::Manager}!loadImageFromRecognizer@{loadImageFromRecognizer}}
+\index{loadImageFromRecognizer@{loadImageFromRecognizer}!Mary::Manager@{Mary::Manager}}
+\subsubsection[loadImageFromRecognizer]{\setlength{\rightskip}{0pt plus 5cm}void Mary::Manager::loadImageFromRecognizer (Ogre::Image $\ast$ {\em image})}}
+\label{class_mary_1_1_manager_a0092d09a8fbcd8969242ad257ba1cb6}
+
+
+loads image in Ogre3d from the recognizer used in the first load image, because the image reference is empty \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em image}]empty image \end{description}
+\end{Desc}
+\hypertarget{class_mary_1_1_manager_d1c3a719937335e1357dd600b10d815d}{
+\index{Mary::Manager@{Mary::Manager}!loadSharedDataFromRecognizer@{loadSharedDataFromRecognizer}}
+\index{loadSharedDataFromRecognizer@{loadSharedDataFromRecognizer}!Mary::Manager@{Mary::Manager}}
+\subsubsection[loadSharedDataFromRecognizer]{\setlength{\rightskip}{0pt plus 5cm}void Mary::Manager::loadSharedDataFromRecognizer (Ogre::HardwarePixelBufferSharedPtr {\em buffer})}}
+\label{class_mary_1_1_manager_d1c3a719937335e1357dd600b10d815d}
+
+
+update the data from Ogre3d image that contains the recognizer image \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em buffer}]pointer to the shared data \end{description}
+\end{Desc}
+\hypertarget{class_mary_1_1_manager_3f86e2f7f44b0f1ff78f92e6e6987dd8}{
+\index{Mary::Manager@{Mary::Manager}!signalShare@{signalShare}}
+\index{signalShare@{signalShare}!Mary::Manager@{Mary::Manager}}
+\subsubsection[signalShare]{\setlength{\rightskip}{0pt plus 5cm}void Mary::Manager::signalShare (std::string \& {\em signal}, \/  void $\ast$ {\em data})}}
+\label{class_mary_1_1_manager_3f86e2f7f44b0f1ff78f92e6e6987dd8}
+
+
+send the emitted signal to the signal listener manager \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em signal}]any identification to the signal emitted \item[{\em data}]emitted content specified by the user \end{description}
+\end{Desc}
+\hypertarget{class_mary_1_1_manager_6b46c90621b16345ff560417d165ebcd}{
+\index{Mary::Manager@{Mary::Manager}!start@{start}}
+\index{start@{start}!Mary::Manager@{Mary::Manager}}
+\subsubsection[start]{\setlength{\rightskip}{0pt plus 5cm}void Mary::Manager::start ({\bf Game} $\ast$ {\em game}, \/  {\bf Recognizer} $\ast$ {\em recognizer})}}
+\label{class_mary_1_1_manager_6b46c90621b16345ff560417d165ebcd}
+
+
+initializes and starts the game \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em game}]a game implementation \item[{\em recognizer}]a CV implementation \end{description}
+\end{Desc}
+
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+Manager.h\item 
+Manager.cpp\end{CompactItemize}

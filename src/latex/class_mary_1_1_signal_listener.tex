@@ -1,0 +1,78 @@
+\hypertarget{class_mary_1_1_signal_listener}{
+\section{Mary::SignalListener Class Reference}
+\label{class_mary_1_1_signal_listener}\index{Mary::SignalListener@{Mary::SignalListener}}
+}
+{\tt \#include $<$SignalListener.h$>$}
+
+Inherited by Mary::GameTest.
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+virtual void \hyperlink{class_mary_1_1_signal_listener_48f677603d7a04727da9bd374cb4b6ff}{listen} (std::string \&signal, void $\ast$data)=0
+\end{CompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{CompactItemize}
+\item 
+static void \hyperlink{class_mary_1_1_signal_listener_68b733fa309d62ada6eb9e3a28ae2dea}{sharedSignal} (std::string \&signal, void $\ast$data)
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_mary_1_1_signal_listener_1326cd2fc291aff56cfc14b7e1b10423}{SignalListener} (void)
+\item 
+\hyperlink{class_mary_1_1_signal_listener_16e4a866d0d8a152affb6f0bc77e78ec}{$\sim$SignalListener} (void)
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+class that listen signals 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_mary_1_1_signal_listener_1326cd2fc291aff56cfc14b7e1b10423}{
+\index{Mary::SignalListener@{Mary::SignalListener}!SignalListener@{SignalListener}}
+\index{SignalListener@{SignalListener}!Mary::SignalListener@{Mary::SignalListener}}
+\subsubsection[SignalListener]{\setlength{\rightskip}{0pt plus 5cm}Mary::SignalListener::SignalListener (void)\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_mary_1_1_signal_listener_1326cd2fc291aff56cfc14b7e1b10423}
+
+
+constructor \hypertarget{class_mary_1_1_signal_listener_16e4a866d0d8a152affb6f0bc77e78ec}{
+\index{Mary::SignalListener@{Mary::SignalListener}!$\sim$SignalListener@{$\sim$SignalListener}}
+\index{$\sim$SignalListener@{$\sim$SignalListener}!Mary::SignalListener@{Mary::SignalListener}}
+\subsubsection[$\sim$SignalListener]{\setlength{\rightskip}{0pt plus 5cm}Mary::SignalListener::$\sim$SignalListener (void)\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_mary_1_1_signal_listener_16e4a866d0d8a152affb6f0bc77e78ec}
+
+
+destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_mary_1_1_signal_listener_48f677603d7a04727da9bd374cb4b6ff}{
+\index{Mary::SignalListener@{Mary::SignalListener}!listen@{listen}}
+\index{listen@{listen}!Mary::SignalListener@{Mary::SignalListener}}
+\subsubsection[listen]{\setlength{\rightskip}{0pt plus 5cm}virtual void Mary::SignalListener::listen (std::string \& {\em signal}, \/  void $\ast$ {\em data})\hspace{0.3cm}{\tt  \mbox{[}pure virtual\mbox{]}}}}
+\label{class_mary_1_1_signal_listener_48f677603d7a04727da9bd374cb4b6ff}
+
+
+virtual method to do calculation with the signal emitted \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em signal}]identifier signal name  data signal content \end{description}
+\end{Desc}
+\hypertarget{class_mary_1_1_signal_listener_68b733fa309d62ada6eb9e3a28ae2dea}{
+\index{Mary::SignalListener@{Mary::SignalListener}!sharedSignal@{sharedSignal}}
+\index{sharedSignal@{sharedSignal}!Mary::SignalListener@{Mary::SignalListener}}
+\subsubsection[sharedSignal]{\setlength{\rightskip}{0pt plus 5cm}void Mary::SignalListener::sharedSignal (std::string \& {\em signal}, \/  void $\ast$ {\em data})\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{class_mary_1_1_signal_listener_68b733fa309d62ada6eb9e3a28ae2dea}
+
+
+emit the signal to all listener objects \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em signal}]identifier signal name \item[{\em data}]signal content \end{description}
+\end{Desc}
+
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+SignalListener.h\item 
+SignalListener.cpp\end{CompactItemize}

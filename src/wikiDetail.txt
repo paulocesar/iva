@@ -1,0 +1,57 @@
+//__wikicut:00_title_1{Reorganize things.
+//__wikicut}
+
+//__wikicut:01{
+// After the first tutorial, I have reorganized the code.
+// I have put the initialisation of ogre (everything until the windows creation),
+// into a class that is called OgreEasy::SimpleOgreInit.
+// I also wrote a few simple helper macros (encapsulation of std::cout)
+// and functions that I stored in "EasyDefines.h".
+//
+// The main.cpp now looks like this :
+#include <memory>
+#include <exception>
+
+#include "Ogre\OgreRoot.h"
+#include "Ogre\OgreRenderWindow.h"
+#include "Ogre\OgreWindowEventUtilities.h"
+
+#include "SimpleOgreInit.h"
+
+#include "EasyDefines.h"
+
+void AnOgreApplication()
+{
+	OgreEasy::SimpleOgreInit lOgreInit;
+
+	if(!lOgreInit.initOgre())
+	{
+		MWARNING("Impossible to init Ogre correctly.");
+		return;
+	}
+
+	while(!lOgreInit.mWindow->isClosed())
+	{
+		Ogre::WindowEventUtilities::messagePump();
+	}
+	return;
+}
+
+int main()
+{
+	try
+	{
+		AnOgreApplication();
+		std::cout<<"end of the program"<<std::endl;
+	}catch(Ogre::Exception &e)
+	{
+		MWARNING("!!!!Ogre::Exception!!!!\n" << e.what());
+	}catch(std::exception &e)
+	{
+		MWARNING("!!!!std::exception!!!!\n"<<e.what());
+	}
+	OgreEasy::waitForUser();
+	return 0;
+}
+// This is the structure I will now use for my next tutorials.
+//__wikicut}

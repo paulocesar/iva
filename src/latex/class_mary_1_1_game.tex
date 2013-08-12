@@ -1,0 +1,138 @@
+\hypertarget{class_mary_1_1_game}{
+\section{Mary::Game Class Reference}
+\label{class_mary_1_1_game}\index{Mary::Game@{Mary::Game}}
+}
+{\tt \#include $<$Game.h$>$}
+
+Inherited by Mary::GameTest.
+
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+bool \hyperlink{class_mary_1_1_game_26ca832057d8e17e801d38549d703fc1}{start} ()
+\item 
+\hyperlink{class_mary_1_1_game_1dd0363361b2487f464fb3b0690b5d83}{Game} ()
+\item 
+\hyperlink{class_mary_1_1_game_752202eeaee91035b079e49a3e9a37cf}{$\sim$Game} ()
+\item 
+void \hyperlink{class_mary_1_1_game_03483c4d1fd0df06c063691978387353}{createSphere} (const std::string \&strName, const float r, const int nRings=16, const int nSegments=16)
+\item 
+\hypertarget{class_mary_1_1_game_eac1e764de72feac38d851669a347564}{
+void \textbf{createRecognizerImagePlane} (std::string \&name)}
+\label{class_mary_1_1_game_eac1e764de72feac38d851669a347564}
+
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+std::auto\_\-ptr$<$ Ogre::Root $>$ \hyperlink{class_mary_1_1_game_eeca741315847788960bda451311d1fb}{mRoot}
+\item 
+Ogre::RenderWindow $\ast$ \hyperlink{class_mary_1_1_game_5ac0225c8554738b304d2f855d9e0922}{mWindow}
+\end{CompactItemize}
+\subsection*{Static Public Attributes}
+\begin{CompactItemize}
+\item 
+static std::vector$<$ Ogre::SceneNode $\ast$ $>$ \hyperlink{class_mary_1_1_game_4a50e08c727d246290892e1c28d237e1}{mListTouchableModels}
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+virtual void \hyperlink{class_mary_1_1_game_7880bac586d9388b98a00a846199adbc}{build} ()=0
+\item 
+virtual void \hyperlink{class_mary_1_1_game_9c5be30e806dd6419a5d44b398ece955}{update} (float elapsedSinceLastFrame)=0
+\item 
+virtual void \hyperlink{class_mary_1_1_game_7b8b8ce9b58091229320816e3241fd98}{destroy} ()=0
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_mary_1_1_game}{Game} interface. used by the \hyperlink{class_mary_1_1_manager}{Manager} class 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_mary_1_1_game_1dd0363361b2487f464fb3b0690b5d83}{
+\index{Mary::Game@{Mary::Game}!Game@{Game}}
+\index{Game@{Game}!Mary::Game@{Mary::Game}}
+\subsubsection[Game]{\setlength{\rightskip}{0pt plus 5cm}Mary::Game::Game ()}}
+\label{class_mary_1_1_game_1dd0363361b2487f464fb3b0690b5d83}
+
+
+constructor \hypertarget{class_mary_1_1_game_752202eeaee91035b079e49a3e9a37cf}{
+\index{Mary::Game@{Mary::Game}!$\sim$Game@{$\sim$Game}}
+\index{$\sim$Game@{$\sim$Game}!Mary::Game@{Mary::Game}}
+\subsubsection[$\sim$Game]{\setlength{\rightskip}{0pt plus 5cm}Mary::Game::$\sim$Game ()}}
+\label{class_mary_1_1_game_752202eeaee91035b079e49a3e9a37cf}
+
+
+destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_mary_1_1_game_7880bac586d9388b98a00a846199adbc}{
+\index{Mary::Game@{Mary::Game}!build@{build}}
+\index{build@{build}!Mary::Game@{Mary::Game}}
+\subsubsection[build]{\setlength{\rightskip}{0pt plus 5cm}virtual void Mary::Game::build ()\hspace{0.3cm}{\tt  \mbox{[}protected, pure virtual\mbox{]}}}}
+\label{class_mary_1_1_game_7880bac586d9388b98a00a846199adbc}
+
+
+virtual method for initializations needed before the main loop \hypertarget{class_mary_1_1_game_03483c4d1fd0df06c063691978387353}{
+\index{Mary::Game@{Mary::Game}!createSphere@{createSphere}}
+\index{createSphere@{createSphere}!Mary::Game@{Mary::Game}}
+\subsubsection[createSphere]{\setlength{\rightskip}{0pt plus 5cm}void Mary::Game::createSphere (const std::string \& {\em strName}, \/  const float {\em r}, \/  const int {\em nRings} = {\tt 16}, \/  const int {\em nSegments} = {\tt 16})}}
+\label{class_mary_1_1_game_03483c4d1fd0df06c063691978387353}
+
+
+create a basic white sphere. Usually used in examples \begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em strName}]unique name for the sphere \item[{\em r}]the radius \item[{\em nRings}]number of rings to generate polygons for the sphere mesh. more rings, more polygons... \end{description}
+\end{Desc}
+\hypertarget{class_mary_1_1_game_7b8b8ce9b58091229320816e3241fd98}{
+\index{Mary::Game@{Mary::Game}!destroy@{destroy}}
+\index{destroy@{destroy}!Mary::Game@{Mary::Game}}
+\subsubsection[destroy]{\setlength{\rightskip}{0pt plus 5cm}virtual void Mary::Game::destroy ()\hspace{0.3cm}{\tt  \mbox{[}protected, pure virtual\mbox{]}}}}
+\label{class_mary_1_1_game_7b8b8ce9b58091229320816e3241fd98}
+
+
+virtual method for code the runs after the main loop. \hypertarget{class_mary_1_1_game_26ca832057d8e17e801d38549d703fc1}{
+\index{Mary::Game@{Mary::Game}!start@{start}}
+\index{start@{start}!Mary::Game@{Mary::Game}}
+\subsubsection[start]{\setlength{\rightskip}{0pt plus 5cm}bool Mary::Game::start ()}}
+\label{class_mary_1_1_game_26ca832057d8e17e801d38549d703fc1}
+
+
+initializes the game \hypertarget{class_mary_1_1_game_9c5be30e806dd6419a5d44b398ece955}{
+\index{Mary::Game@{Mary::Game}!update@{update}}
+\index{update@{update}!Mary::Game@{Mary::Game}}
+\subsubsection[update]{\setlength{\rightskip}{0pt plus 5cm}virtual void Mary::Game::update (float {\em elapsedSinceLastFrame})\hspace{0.3cm}{\tt  \mbox{[}protected, pure virtual\mbox{]}}}}
+\label{class_mary_1_1_game_9c5be30e806dd6419a5d44b398ece955}
+
+
+virtual method for the main game loop 
+
+\subsection{Member Data Documentation}
+\hypertarget{class_mary_1_1_game_4a50e08c727d246290892e1c28d237e1}{
+\index{Mary::Game@{Mary::Game}!mListTouchableModels@{mListTouchableModels}}
+\index{mListTouchableModels@{mListTouchableModels}!Mary::Game@{Mary::Game}}
+\subsubsection[mListTouchableModels]{\setlength{\rightskip}{0pt plus 5cm}std::vector$<$ Ogre::SceneNode $\ast$ $>$ {\bf Mary::Game::mListTouchableModels}\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{class_mary_1_1_game_4a50e08c727d246290892e1c28d237e1}
+
+
+reference to all objects that can be manipulated by the \hyperlink{class_mary_1_1_recognizer}{Recognizer} should not be used for now... \hypertarget{class_mary_1_1_game_eeca741315847788960bda451311d1fb}{
+\index{Mary::Game@{Mary::Game}!mRoot@{mRoot}}
+\index{mRoot@{mRoot}!Mary::Game@{Mary::Game}}
+\subsubsection[mRoot]{\setlength{\rightskip}{0pt plus 5cm}std::auto\_\-ptr$<$Ogre::Root$>$ {\bf Mary::Game::mRoot}}}
+\label{class_mary_1_1_game_eeca741315847788960bda451311d1fb}
+
+
+reference to the graphic engine's root node \hypertarget{class_mary_1_1_game_5ac0225c8554738b304d2f855d9e0922}{
+\index{Mary::Game@{Mary::Game}!mWindow@{mWindow}}
+\index{mWindow@{mWindow}!Mary::Game@{Mary::Game}}
+\subsubsection[mWindow]{\setlength{\rightskip}{0pt plus 5cm}Ogre::RenderWindow$\ast$ {\bf Mary::Game::mWindow}}}
+\label{class_mary_1_1_game_5ac0225c8554738b304d2f855d9e0922}
+
+
+reference to the graphic engine's window 
+
+The documentation for this class was generated from the following files:\begin{CompactItemize}
+\item 
+Game.h\item 
+Game.cpp\end{CompactItemize}

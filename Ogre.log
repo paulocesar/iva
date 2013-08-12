@@ -1,0 +1,211 @@
+09:32:02: Creating resource group General
+09:32:02: Creating resource group Internal
+09:32:02: Creating resource group Autodetect
+09:32:02: SceneManagerFactory for type 'DefaultSceneManager' registered.
+09:32:02: Registering ResourceManager for type Material
+09:32:02: Registering ResourceManager for type Mesh
+09:32:02: Registering ResourceManager for type Skeleton
+09:32:02: MovableObjectFactory for type 'ParticleSystem' registered.
+09:32:02: OverlayElementFactory for type Panel registered.
+09:32:02: OverlayElementFactory for type BorderPanel registered.
+09:32:02: OverlayElementFactory for type TextArea registered.
+09:32:02: Registering ResourceManager for type Font
+09:32:02: ArchiveFactory for archive type FileSystem registered.
+09:32:02: ArchiveFactory for archive type Zip registered.
+09:32:02: DDS codec registering
+09:32:02: FreeImage version: 3.13.1
+09:32:02: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+09:32:02: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+09:32:02: Registering ResourceManager for type HighLevelGpuProgram
+09:32:02: Registering ResourceManager for type Compositor
+09:32:02: MovableObjectFactory for type 'Entity' registered.
+09:32:02: MovableObjectFactory for type 'Light' registered.
+09:32:02: MovableObjectFactory for type 'BillboardSet' registered.
+09:32:02: MovableObjectFactory for type 'ManualObject' registered.
+09:32:02: MovableObjectFactory for type 'BillboardChain' registered.
+09:32:02: MovableObjectFactory for type 'RibbonTrail' registered.
+09:32:02: *-*-* OGRE Initialising
+09:32:02: *-*-* Version 1.7.3 (Cthugha)
+09:32:02: Loading library RenderSystem_GL
+09:32:02: Installing plugin: GL RenderSystem
+09:32:02: OpenGL Rendering Subsystem created.
+09:32:02: Plugin successfully installed
+09:32:02: Loading library Plugin_OctreeSceneManager
+09:32:02: Installing plugin: Octree & Terrain Scene Manager
+09:32:02: Plugin successfully installed
+09:32:02: CPU Identifier & Features
+09:32:02: -------------------------
+09:32:02:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i5-2410M CPU @ 2.30GHz
+09:32:02:  *      SSE: yes
+09:32:02:  *     SSE2: yes
+09:32:02:  *     SSE3: yes
+09:32:02:  *      MMX: yes
+09:32:02:  *   MMXEXT: yes
+09:32:02:  *    3DNOW: no
+09:32:02:  * 3DNOWEXT: no
+09:32:02:  *     CMOV: yes
+09:32:02:  *      TSC: yes
+09:32:02:  *      FPU: yes
+09:32:02:  *      PRO: yes
+09:32:02:  *       HT: no
+09:32:02: -------------------------
+09:32:02: ******************************
+*** Starting GLX Subsystem ***
+******************************
+09:32:02: GLRenderSystem::_createRenderWindow "Hello Ogre World", 800x600 windowed  miscParams: FSAA=0 vsync=true 
+09:32:02: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource GLX_icon.png in resource group General or any other group. in ResourceGroupManager::openResource at /home/paulo/Downloads/ogre_src_v1-7-3/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+09:32:02: GLXWindow::create used FBConfigID = 108
+09:32:02: GL_VERSION = 2.1 Mesa 7.11
+09:32:02: GL_VENDOR = Tungsten Graphics, Inc
+09:32:02: GL_RENDERER = Mesa DRI Intel(R) Sandybridge Mobile x86/MMX/SSE2
+09:32:02: GL_EXTENSIONS = GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_logic_op GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_polygon_offset GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_NV_vertex_program GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_ATI_envmap_bumpmap GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_vertex_program1_1 GL_APPLE_client_storage GL_APPLE_packed_pixels GL_APPLE_vertex_array_object GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_MESA_ycbcr_texture GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_rectangle GL_EXT_pixel_buffer_object GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_APPLE_object_purgeable GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_gpu_program_parameters GL_EXT_texture_env_combine GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_ARB_copy_buffer GL_ARB_half_float_vertex GL_ARB_map_buffer_range GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_separate_shader_objects GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_ARB_ES2_compatibility GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_texture_lod GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_ARB_robustness 
+09:32:02: Supported GLX extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_import_context GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_multithread_makecurrent GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_EXT_texture_from_pixmap GLX_INTEL_swap_event 
+09:32:02: ***************************
+09:32:02: *** GL Renderer Started ***
+09:32:02: ***************************
+09:32:02: Registering ResourceManager for type GpuProgram
+09:32:02: GLSL support detected
+09:32:02: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+09:32:02: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+09:32:02: [GL] : Valid FBO targets PF_UNKNOWN PF_A8 PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_SHORT_RGB 
+09:32:02: RenderSystem capabilities
+09:32:02: -------------------------
+09:32:02: RenderSystem Name: OpenGL Rendering Subsystem
+09:32:02: GPU Vendor: unknown
+09:32:02: Device Name: Mesa DRI Intel(R) Sandybridge Mobile x86/MMX/SSE2
+09:32:02: Driver Version: 2.1.0.0
+09:32:02:  * Fixed function pipeline: yes
+09:32:02:  * Hardware generation of mipmaps: yes
+09:32:02:  * Texture blending: yes
+09:32:02:  * Anisotropic texture filtering: yes
+09:32:02:  * Dot product texture operation: yes
+09:32:02:  * Cube mapping: yes
+09:32:02:  * Hardware stencil buffer: yes
+09:32:02:    - Stencil depth: 8
+09:32:02:    - Two sided stencil support: yes
+09:32:02:    - Wrap stencil values: yes
+09:32:02:  * Hardware vertex / index buffers: yes
+09:32:02:  * Vertex programs: yes
+09:32:02:  * Number of floating-point constants for vertex programs: 1024
+09:32:02:  * Number of integer constants for vertex programs: 0
+09:32:02:  * Number of boolean constants for vertex programs: 0
+09:32:02:  * Fragment programs: yes
+09:32:02:  * Number of floating-point constants for fragment programs: 1024
+09:32:02:  * Number of integer constants for fragment programs: 0
+09:32:02:  * Number of boolean constants for fragment programs: 0
+09:32:02:  * Geometry programs: no
+09:32:03:  * Number of floating-point constants for geometry programs: 0
+09:32:03:  * Number of integer constants for geometry programs: 0
+09:32:03:  * Number of boolean constants for geometry programs: 0
+09:32:03:  * Supported Shader Profiles: arbfp1 arbvp1 glsl
+09:32:03:  * Texture Compression: yes
+09:32:03:    - DXT: no
+09:32:03:    - VTC: no
+09:32:03:    - PVRTC: no
+09:32:03:  * Scissor Rectangle: yes
+09:32:03:  * Hardware Occlusion Query: yes
+09:32:03:  * User clip planes: yes
+09:32:03:  * VET_UBYTE4 vertex element type: yes
+09:32:03:  * Infinite far plane projection: yes
+09:32:03:  * Hardware render-to-texture: yes
+09:32:03:  * Floating point textures: no
+09:32:03:  * Non-power-of-two textures: yes
+09:32:03:  * Volume textures: yes
+09:32:03:  * Multiple Render Targets: 8
+09:32:03:    - With different bit depths: yes
+09:32:03:  * Point Sprites: yes
+09:32:03:  * Extended point parameters: yes
+09:32:03:  * Max Point Size: 255
+09:32:03:  * Vertex texture fetch: no
+09:32:03:  * Number of world matrices: 0
+09:32:03:  * Number of texture units: 16
+09:32:03:  * Stencil buffer depth: 8
+09:32:03:  * Number of vertex blend matrices: 0
+09:32:03:  * Render to Vertex Buffer : no
+09:32:03:  * GL 1.5 without VBO workaround: no
+09:32:03:  * Frame Buffer objects: yes
+09:32:03:  * Frame Buffer objects (ARB extension): no
+09:32:03:  * Frame Buffer objects (ATI extension): no
+09:32:03:  * PBuffer support: yes
+09:32:03:  * GL 1.5 without HW-occlusion workaround: no
+09:32:03: Registering ResourceManager for type Texture
+09:32:03: DefaultWorkQueue('Root') initialising on thread 0x9076968.
+09:32:03: Particle Renderer Type 'billboard' registered
+09:32:03: SceneManagerFactory for type 'OctreeSceneManager' registered.
+09:32:03: SceneManagerFactory for type 'TerrainSceneManager' registered.
+09:32:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x9267f58 starting.
+09:32:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x95d6eb8 starting.
+09:32:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x95a57b0 starting.
+09:32:03: DefaultWorkQueue('Root')::WorkerFunc - thread 0x95d7080 starting.
+09:32:03: Creating resource group Mary Engine Test
+09:32:03: Added resource location 'media/mesh' of type 'FileSystem' to resource group 'Mary Engine Test'
+09:32:03: Initialising resource group Mary Engine Test
+09:32:03: Parsing scripts for resource group Mary Engine Test
+09:32:03: Parsing script Camisa.material
+09:32:03: Parsing script eye_colour.001.material
+09:32:03: Parsing script eye_pupil.001.material
+09:32:03: Parsing script head_skin.000.material
+09:32:03: Parsing script Tongue.material
+09:32:03: Parsing script Material.001.material
+09:32:03: Parsing script Material.002.material
+09:32:03: Parsing script eyelashes.001.material
+09:32:03: Parsing script Boca.material
+09:32:03: Parsing script Background.material
+09:32:03: Parsing script Unha.material
+09:32:03: Parsing script teeth.material
+09:32:03: Parsing script Boca.001.material
+09:32:03: Parsing script head_hair.000.material
+09:32:03: Parsing script MatCraneo.material
+09:32:03: Parsing script Ogre.material
+09:32:03: Parsing script Mouth.material
+09:32:03: Parsing script facial.material
+09:32:03: Parsing script gums.001.material
+09:32:03: Parsing script eye_white.001.material
+09:32:03: Parsing script Shoes.material
+09:32:03: Parsing script Hair.material
+09:32:03: Parsing script head_hair.001.material
+09:32:03: Parsing script Material.material
+09:32:03: Parsing script MyFont.fontdef
+09:32:03: Finished parsing scripts for resource group Mary Engine Test
+09:32:03: Loading resource group 'Mary Engine Test' - Resources: 1 World Geometry: 1
+09:32:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource eyelashes.png in resource group Mary Engine Test or any other group. in ResourceGroupManager::openResource at /home/paulo/Downloads/ogre_src_v1-7-3/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+09:32:03: Error loading texture eyelashes.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource eyelashes.png in resource group Mary Engine Test or any other group. in ResourceGroupManager::openResource at /home/paulo/Downloads/ogre_src_v1-7-3/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+09:32:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource head_rebake.png in resource group Mary Engine Test or any other group. in ResourceGroupManager::openResource at /home/paulo/Downloads/ogre_src_v1-7-3/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+09:32:03: Error loading texture head_rebake.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource head_rebake.png in resource group Mary Engine Test or any other group. in ResourceGroupManager::openResource at /home/paulo/Downloads/ogre_src_v1-7-3/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+09:32:03: Texture: 01.png: Loading 1 faces(PF_R8G8B8,640x480x1) with 9 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,640x480x1.
+09:32:03: Texture: 02.png: Loading 1 faces(PF_R8G8B8,640x480x1) with 9 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,640x480x1.
+09:32:03: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource head_rebake.png in resource group Mary Engine Test or any other group. in ResourceGroupManager::openResource at /home/paulo/Downloads/ogre_src_v1-7-3/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+09:32:03: Error loading texture head_rebake.png. Texture layer will be blank. Loading the texture failed with the following exception: OGRE EXCEPTION(6:FileNotFoundException): Cannot locate resource head_rebake.png in resource group Mary Engine Test or any other group. in ResourceGroupManager::openResource at /home/paulo/Downloads/ogre_src_v1-7-3/OgreMain/src/OgreResourceGroupManager.cpp (line 753)
+09:32:03: Texture: nrmls_craneo.png: Loading 1 faces(PF_A8R8G8B8,800x800x1) with 9 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,800x800x1.
+09:32:03: Texture: ambocc_craneo.png: Loading 1 faces(PF_A8R8G8B8,800x800x1) with 9 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,800x800x1.
+09:32:03: Texture: spheremap.png: Loading 1 faces(PF_R8G8B8,256x256x1) with 8 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+09:32:03: Texture: GreenSkin.jpg: Loading 1 faces(PF_R8G8B8,256x256x1) with 8 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+09:32:03: Texture: tusk.jpg: Loading 1 faces(PF_R8G8B8,96x96x1) with 6 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,96x96x1.
+09:32:03: Texture: Dr_Bunsen_Head.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with 10 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+09:32:03: Font MyFontusing texture size 512x256
+09:32:03: Info: Freetype returned null for character 160 in font MyFont
+09:32:03: Texture: MyFontTexture: Loading 1 faces(PF_BYTE_LA,512x256x1) with  hardware generated mipmaps from Image. Internal format is PF_BYTE_LA,512x256x1.
+09:32:03: Finished loading resource group Mary Engine Test
+09:32:03: Texture: exemploDeTeste: Loading 1 faces(PF_R8G8B8,640x480x1) with 9 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,640x480x1.
+09:32:03: Mesh: Loading facial.mesh.
+09:32:03: Can't assign material drbunsen_eye to SubEntity of Ogre/MO3 because this Material does not exist. Have you forgotten to define it in a .material script?
+09:32:03: Can't assign material drbunsen_eyes to SubEntity of Ogre/MO3 because this Material does not exist. Have you forgotten to define it in a .material script?
+09:33:10: Destroying resource group Mary Engine Test
+09:33:10: Unloading resource group Mary Engine Test
+09:33:10: Finished unloading resource group Mary Engine Test

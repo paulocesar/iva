@@ -1,0 +1,40 @@
+
+// blender material: Boca
+material Boca 
+{
+    receive_shadows on
+    technique b2ogre_1319565213.316933
+    {
+        pass b2ogre_1319565213.31696
+        {
+            ambient 0.31853073835372925 0.22214531898498535 0.13569959998130798 1.0
+            diffuse 0.2548245944801657 0.17771625783616685 0.10855968160271168 1.0
+            specular 0.0005591045315265011 0.000409656409437853 0.00030390165259036594 1.0 4.25
+            emissive 0.0 0.0 0.0 1.0
+            alpha_to_coverage off
+            colour_write on
+            cull_hardware clockwise
+            depth_check on
+            depth_func less_equal
+            depth_write on
+            illumination_stage 
+            light_clip_planes off
+            light_scissor off
+            lighting on
+            normalise_normals off
+            polygon_mode solid
+            scene_blend one zero
+            scene_blend_op add
+            shading gouraud
+            transparent_sorting on
+            texture_unit b2ogre_1319565213.317484
+            {
+                texture head_rebake.png
+                tex_address_mode wrap
+                scale 1.0 1.0
+                tex_coord_set 0
+                colour_op replace
+            }
+        }
+    }
+}
